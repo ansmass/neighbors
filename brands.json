@@ -1,42 +1,50 @@
 [
-     {
-          "id": "1",
-          "name": "Mercedes",
-          "description": "Mercedes is a German brand, created in 1929 by Karl Benz and Gottlieb Daimler, it builds and develops luxury, confortable and performance cars. The logo represents a star and is generally made of silver metal."
-     },
-     {
-       "id": "2",
-       "name": "Norauto",
-       "description": "Norauto is a French brand, created in 1970 by Éric Derville. It is a chain of stores that specialize in car repair and maintenance, as well as the sale of automotive equipment. Norauto is a European leader in its industry and is part of the Mobivia Group. The logo of Norauto features a yellow helmet along with the brand name."
-     },
-     {
-       "id": "3",
-       "name": "Cupra",
-       "description": "Cupra is a Spanish brand, created in 2018. It produces and develops both thermal and electric cars in limited editions. Cupra is a subsidiary of SEAT. The logo of Cupra features a copper crown."
-     },
-     {
-       "id": "4",
-       "name": "Michelin",
-       "description": "Michelin is a French brand created in 1889 by the Michelin brothers, André and Édouard. It specializes in the creation and development of various ranges of tires. The brand's first factory was located in Clermont-Ferrand. Michelin is also known for creating the 'Guide Michelin,' commonly referred to as the 'Guide rouge.' The brand has played a significant role in equipping cars and other vehicles during both World Wars. The logo of Michelin features the famous 'Bibendum' character and the colors are white and blue."
-     },
-     {
-       "id": "5",
-       "name": "Peugeot",
-       "description": "Peugeot is a French brand, created in 1810 by the Peugeot family. Initially, Peugeot's products included coffee grinders and tools. In 1889, Peugeot produced its first car, the famous Type 1. Peugeot is now a renowned car designer and a subsidiary of Stellantis. Justin Blazer was the first designer of the Peugeot logo, which has evolved over the years."
-     },
-     {
-       "id": "6",
-       "name": "Tesla",
-       "description": "Tesla is an American brand created in 2003 by Martin Eberhard and Marc Tarpenning. The name of the brand is a tribute to Nikola Tesla. Tesla specializes in the creation and development of electric cars, superchargers, and autopilot technology. The logo of Tesla is a stylized 'T' representing the first letter of the brand. It is typically displayed in a clean, metallic silver color."
-     },
-     {
-       "id": "7",
-       "name": "Ferrari",
-       "description": "Ferrari is an Italian brand created in 1939 by Enzo Ferrari. It is a renowned luxury sports car manufacturer. The brand is globally recognized for its iconic and high-performance red vehicles, which symbolize prestige and innovation in the luxury sports car sector. The logo of Ferrari features the 'Cavallino Rampante' or Prancing Horse, depicted in black and yellow."
-     },
-     {
-       "id": "8",
-       "name": "Bridgestone",
-       "description": "Bridgestone, a Japanese leader in the tire industry, is recognized for its iconic red and white branding featuring the distinctive 'B' symbol. With a global reputation for trust and sustainability, Bridgestone's commitment to quality extends to the appearance of its tires, reflecting both reliability and durability. The brand's noteworthy partnership with the Olympic Games underscores its dedication to excellence on a global scale."
-     }
+  {
+    "id": "1",
+    "name": "Mercedes",
+    "description": "Mercedes is a German brand, created in 1929 by Karl Benz and Gottlieb Daimler, it builds and develops luxury, confortable and performance cars. The logo represents a star and is generally made of silver metal.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mercedes-Benz_Star_2022.svg/640px-Mercedes-Benz_Star_2022.svg.png"
+  },
+  {
+    "id": "2",
+    "name": "Norauto",
+    "description": "Norauto is a French brand, created in 1970 by Éric Derville. It is a chain of stores that specialize in car repair and maintenance, as well as the sale of automotive equipment. Norauto is a European leader in its industry and is part of the Mobivia Group. The logo of Norauto features a yellow helmet along with the brand name.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Logo_NORAUTO_Blue.svg/640px-Logo_NORAUTO_Blue.svg.png"
+  },
+  {
+    "id": "3",
+    "name": "Cupra",
+    "description": "Cupra is a Spanish brand, created in 2018. It produces and develops both thermal and electric cars in limited editions. Cupra is a subsidiary of SEAT. The logo of Cupra features a copper crown.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cupra_black.png/800px-Cupra_black.png"
+  },
+  {
+    "id": "4",
+    "name": "Michelin",
+    "description": "Michelin is a French brand created in 1889 by the Michelin brothers, André and Édouard. It specializes in the creation and development of various ranges of tires. The brand's first factory was located in Clermont-Ferrand. Michelin is also known for creating the 'Guide Michelin,' commonly referred to as the 'Guide rouge.' The brand has played a significant role in equipping cars and other vehicles during both World Wars. The logo of Michelin features the famous 'Bibendum' character and the colors are white and blue.",
+    "url": "https://anef-puy-de-dome.org/wp-content/uploads/2023/02/Michelin-Logo.png"
+  },
+  {
+    "id": "5",
+    "name": "Peugeot",
+    "description": "Peugeot is a French brand, created in 1810 by the Peugeot family. Initially, Peugeot's products included coffee grinders and tools. In 1889, Peugeot produced its first car, the famous Type 1. Peugeot is now a renowned car designer and a subsidiary of Stellantis. Justin Blazer was the first designer of the Peugeot logo, which has evolved over the years.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Peugeot_Logo.svg/640px-Peugeot_Logo.svg.png"
+  },
+  {
+    "id": "6",
+    "name": "Tesla",
+    "description": "Tesla is an American brand created in 2003 by Martin Eberhard and Marc Tarpenning. The name of the brand is a tribute to Nikola Tesla. Tesla specializes in the creation and development of electric cars, superchargers, and autopilot technology. The logo of Tesla is a stylized 'T' representing the first letter of the brand. It is typically displayed in a clean, metallic silver color.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/640px-Tesla_T_symbol.svg.png"
+  },
+  {
+    "id": "7",
+    "name": "Ferrari",
+    "description": "Ferrari is an Italian brand created in 1939 by Enzo Ferrari. It is a renowned luxury sports car manufacturer. The brand is globally recognized for its iconic and high-performance red vehicles, which symbolize prestige and innovation in the luxury sports car sector. The logo of Ferrari features the 'Cavallino Rampante' or Prancing Horse, depicted in black and yellow.",
+    "url": "https://www.logo-voiture.com/wp-content/uploads/2021/01/ferrari-logo-750x1100-grand.png"
+  },
+  {
+    "id": "8",
+    "name": "Bridgestone",
+    "description": "Bridgestone, a Japanese leader in the tire industry, is recognized for its iconic red and white branding featuring the distinctive 'B' symbol. With a global reputation for trust and sustainability, Bridgestone's commitment to quality extends to the appearance of its tires, reflecting both reliability and durability. The brand's noteworthy partnership with the Olympic Games underscores its dedication to excellence on a global scale.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Bridgestone_logo_full_color.svg/640px-Bridgestone_logo_full_color.svg.png"
+  }
 ]
