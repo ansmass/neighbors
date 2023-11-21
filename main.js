@@ -1,33 +1,55 @@
 const validateButton = document.getElementById("validateButton");
+const brandNumber = document.getElementById('brandNumber');
+const brandName = document.getElementById('brandName');
+const brandDescription = document.getElementById('brandDescription');
+const contentContainer = document.getElementById('contentContainer');
 
-function sortBrandById(id){
-     return fetch('brands.json')
-          .then(response => response.json())
-          .then(data => {
-               for(var i = 0; i < data.length; i++){
-                    if(data[i].id ===id){
-                         return data[i];
-                    }
-               }
-               return null;
-          })
-          .catch(error => {
-               console.error('Erreur lors du chargement des données : ', error);
-               return null;
-          })
+async function sortBrandById(id) {
+  try {
+    const response = await fetch('brands.json');
+    const data = await response.json();
+    
+    for (const brand of data) {
+      if (brand.id === id) {
+        return brand;
+      }
+    }
+    
+    return null;
+  } catch (error) {
+    console.error('Erreur lors du chargement des données : ', error);
+    return null;
+  }
 }
 
-function showBrandData(){
-     let userValue = document.getElementById("userNumber").value;
-
+function showBrandData() {
+     const userValue = document.getElementById("userNumber").value;
+   
      sortBrandById(userValue)
-          .then(brandDetails => {
-               if(brandDetails){
-                    console.log("Correspondance trouvée : ", brandDetails);
-               }else{
-                    console.log("Aucune correspondance trouvée pour l'ID : ", userValue);
-               }
-          })
-}
+       .then(brandDetails => {
+         if (brandDetails) {
+           brandNumber.innerHTML = brandDetails.id;
+           brandName.innerHTML = brandDetails.name;
+   
+           // Remplace l'image existante
+           const existingLogo = contentContainer.querySelector('img');
+           if (existingLogo) {
+             existingLogo.src = brandDetails.url;
+           } else {
+             // Ajoute une nouvelle image si aucune n'existe
+             const logoContainer = document.createElement('div');
+             const logo = document.createElement('img');
+             logo.src = brandDetails.url;
+             logoContainer.appendChild(logo);
+             contentContainer.appendChild(logoContainer);
+           }
+   
+           brandDescription.innerHTML = brandDetails.description;
+         } else {
+           console.log(`Aucune correspondance trouvée pour l'ID : ${userValue}`);
+         }
+       });
+   }
+   
 
 validateButton.addEventListener('click', showBrandData);
