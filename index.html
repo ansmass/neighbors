@@ -9,26 +9,32 @@
 </head>
 <body>
 
-     <header>
-          <h1 class="title">Neighbors</h1>
-     </header>
+     <div id="laoderSection" class="loader-section" >
+          <img src="assets//loader-elements/neighbors-logo.png" class="loader-section_logo">
+     </div>
+
+     <div class="main-section">
+          <header>
+               <h1 class="title">Neighbors</h1>
+          </header>
+          
+          <main>
+               <div class="number-container">
+                    <input type="number" id="userNumber" class="number-container__input">
+                    <button id="validateButton" class="number-container__button">Find</button>
+               </div>
      
-     <main>
-          <div class="number-container">
-               <input type="number" id="userNumber" class="number-container__input">
-               <button id="validateButton" class="number-container__button">Find</button>
-          </div>
+               <article id="contentContainer" class="content-container">
+                    <h2 class="content-container_title title"><span id="brandNumber"></span> the correct answer is <br><span id="brandName"></span></h2>
+                    <div class="content-container_description" id="brandDescription"></div>
+               </article>
+     
+               <article id="errorContainer" class="error-container">
+                    <h2 class="title"><span id="errorNumber"></span> doesn't exist !</h2>
+               </article>
+          </main>
+     </div>
 
-          <article id="contentContainer" class="content-container">
-               <h2 class="content-container_title title"><span id="brandNumber"></span> the correct answer is <br><span id="brandName"></span></h2>
-               <div class="content-container_description" id="brandDescription"></div>
-          </article>
-
-          <article id="errorContainer" class="error-container">
-               <h2 class="title"><span id="errorNumber"></span> doesn't exist !</h2>
-          </article>
-     </main>
-
-     <script src="main.js"></script>
+     <script src="main.js" type="module"></script>
 </body>
 </html>
