@@ -8,7 +8,7 @@ const errorNumber = document.getElementById("errorNumber");
 
 async function sortBrandById(id) {
   try {
-    const response = await fetch("brands.json");
+    const response = await fetch("assets/brands.json");
     const data = await response.json();
 
     for (const brand of data) {
