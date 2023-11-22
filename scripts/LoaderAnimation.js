@@ -18,6 +18,6 @@ export class LoaderAnimation {
 
     setTimeout(() => {
       this.hideLoader();
-    }, 4000);
+    }, 1500);
   }
 }

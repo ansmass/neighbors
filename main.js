@@ -3,5 +3,8 @@ import { LoaderAnimation } from "/scripts/LoaderAnimation.js";
 import { ShowBrandInformation } from "/scripts/ShowBrandInformation.js";
 
 // Create an instance of the BrandValidator class
-const loarderAnimation = new LoaderAnimation;
-const showBrandInformation = new ShowBrandInformation();
+document.addEventListener("DOMContentLoaded", function () {
+  const loaderAnimation = new LoaderAnimation();
+  loaderAnimation.initLoader();
+  const showBrandInformation = new ShowBrandInformation();
+});
