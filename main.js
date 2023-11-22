@@ -55,7 +55,7 @@ function showBrandData() {
       // hidden the content container
       contentContainer.style.display = "none";
       // show the error container
-      errorContainer.style.display = "block";
+      errorContainer.style.display = "flex";
       errorNumber.innerHTML = userValue;
     }
   });
