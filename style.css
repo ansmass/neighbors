@@ -1,3 +1,99 @@
+/* Reset the margin and padding of all elements */
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body{
+     width: 100%;
+     height: 100vh;
+
+     overflow: none;
+}
+
+header{
+     width: 100%;
+     height: 15vh;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+main{
+     width: 100%;
+     height: 85vh;
+
+     display: flex;
+     flex-direction: column;
+}
+
+
+/* Number container style */
+.number-container{
+     margin-bottom: 1em;
+
+     width: 100%;
+     height: 20vh;
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.number-container__input{
+     margin-bottom: 1em;
+
+     width: 90%;
+     height: 5vh;
+}
+.number-container__button{
+     width: 7em;
+     height: 7em;
+
+     border: none;
+     border-radius: 50%;
+
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+/* Answer container style */
+.content-container{
+     width: 100%;
+
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     text-align: center;
+}
+.content-container_title {
+     margin-bottom: 1em;
+}
+.content-container_description{
+     margin-bottom: 1em;
+     width: 90%;
+
+     font-size: 1.3em;
+}
+
+.content-container img{
+     width: 50vw;
+}
+
+
+.error-container{
+     width: 100%;
+     height: 85vh;
+
+     display: none;
+     align-items: center;
+     justify-content: center;
+}
+
 input[type=number]::-webkit-inner-spin-button {
      -webkit-appearance: none;
-}
+   }
