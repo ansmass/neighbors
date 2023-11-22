@@ -3,6 +3,8 @@ const brandNumber = document.getElementById("brandNumber");
 const brandName = document.getElementById("brandName");
 const brandDescription = document.getElementById("brandDescription");
 const contentContainer = document.getElementById("contentContainer");
+const errorContainer = document.getElementById("errorContainer");
+const errorNumber = document.getElementById("errorNumber");
 
 async function sortBrandById(id) {
   try {
@@ -23,19 +25,24 @@ async function sortBrandById(id) {
 }
 
 function showBrandData() {
+  // get the user value in enter in the input
   const userValue = document.getElementById("userNumber").value;
 
   sortBrandById(userValue).then((brandDetails) => {
     if (brandDetails) {
+      contentContainer.style.display = "flex";
+      errorContainer.style.display = "none";
+
+      // filled the number and name of brand in the title
       brandNumber.innerHTML = brandDetails.id;
       brandName.innerHTML = brandDetails.name;
 
-      // Remplace l'image existante
+      // Replace the brand picture and delete the last
       const existingLogo = contentContainer.querySelector("img");
       if (existingLogo) {
         existingLogo.src = brandDetails.url;
       } else {
-        // Ajoute une nouvelle image si aucune n'existe
+        // add new picture if no have before
         const logoContainer = document.createElement("div");
         const logo = document.createElement("img");
         logo.src = brandDetails.url;
@@ -45,7 +52,11 @@ function showBrandData() {
 
       brandDescription.innerHTML = brandDetails.description;
     } else {
-      console.log(`${userValue} : not found`);
+      // hidden the content container
+      contentContainer.style.display = "none";
+      // show the error container
+      errorContainer.style.display = "block";
+      errorNumber.innerHTML = userValue;
     }
   });
 }
