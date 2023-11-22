@@ -3,24 +3,29 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, user-scalable=no">
      <link rel="stylesheet" href="style.css">
      <title>Neighbors</title>
 </head>
 <body>
 
      <header>
-          <h1>Neighbors</h1>
+          <h1 class="title">Neighbors</h1>
      </header>
      
      <main>
           <div class="number-container">
-               <input type="number" id="userNumber">
-               <button id="validateButton">Enter</button>
+               <input type="number" id="userNumber" class="number-container__input">
+               <button id="validateButton" class="number-container__button">Find</button>
           </div>
 
-          <article class="content-container" id="contentContainer">
-               <h2><span id="brandNumber"></span> the correct answer is <span id="brandName"></span></h2>
-               <div id="brandDescription"></div>
+          <article id="contentContainer" class="content-container">
+               <h2 class="content-container_title title"><span id="brandNumber"></span> the correct answer is <br><span id="brandName"></span></h2>
+               <div class="content-container_description" id="brandDescription"></div>
+          </article>
+
+          <article id="errorContainer" class="error-container">
+               <h2 class="title"><span id="errorNumber"></span> doesn't exist !</h2>
           </article>
      </main>
 
