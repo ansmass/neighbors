@@ -81,7 +81,7 @@
     "id": "14",
     "name": "Center Parcs",
     "description": "Center Parcs is a Dutch brand of holiday villages and tourist residences born in the Netherlands in 1968. Farewell bird-leaf and blue italic typography, unchanged since 1998: the group of holiday residences is now structured around its initials, CP, enclosing at their heart a typographic tree shoot. The new Center Parcs logo features a green bracket in its name which seems to illustrate the brand's promise.",
-    "url": "assets/logo/voyage/center-parc.png"
+    "url": "assets/logo/voyage/center-parcs.png"
   },
   {
     "id": "15",
@@ -117,7 +117,7 @@
     "id": "20",
     "name": "Del Arte",
     "description": "Del Arte, a culinary sensation established in 1985, brings the flavors of authentic Italian cuisine to life. Founded in France, this beloved brand captures the essence of Italy with its diverse menu and vibrant, artistic logo.",
-    "url": "assets/logo/bouffe/del-arte.jpeg"
+    "url": "assets/logo/bouffe/del-arte.png"
   },
   {
     "id": "21",
@@ -141,7 +141,7 @@
     "id": "24",
     "name": "Evian",
     "description": "Evian is a French brand of mineral water whose source, located on the outskirts of the town of the same name at the foot of the Alps, is one of the most famous in Europe. The brand logo is concise, clear and minimalist. It has just three mountain peaks and at their foot the brand name. Climbing mountains is a symbol of the fact that nature is higher and more important than anything a person does. At the same time, the brand name seems to rest on water, and the lower part of the letters is slightly wavy. This shows that the brand was born from the water of mountain streams.",
-    "url": "assets/logo/boisson/evian.png.jpeg"
+    "url": "assets/logo/boisson/evian.png"
   },
   {
     "id": "25",
@@ -153,7 +153,7 @@
     "id": "26",
     "name": "Ferrari",
     "description": "Ferrari is an Italian brand created in 1939 by Enzo Ferrari. It is a renowned luxury sports car manufacturer. The brand is globally recognized for its iconic and high-performance red vehicles, which symbolize prestige and innovation in the luxury sports car sector. The logo of Ferrari features the 'Cavallino Rampante' or Prancing Horse, depicted in black and yellow.",
-    "url": "assets/logo/voiture/brigestone.png"
+    "url": "assets/logo/voiture/ferrari.png"
   },
   {
     "id": "27",
@@ -165,7 +165,7 @@
     "id": "28",
     "name": "Google",
     "description": "Founded by Larry Page and Sergey Brin in 1998, Google is synonymous with internet search; its vibrant, multicolored logo represents the diversity and abundance of information it makes accessible.",
-    "url": "assets/logo/techno/google.svg"
+    "url": "assets/logo/techno/google.png"
   },
   {
     "id": "29",
@@ -177,7 +177,7 @@
     "id": "30",
     "name": "Ibis Hôtel",
     "description": "Ibis is a hotel brand held by the Accor group and created in 1974. Since 2011, the Ibis Hotels logo has been placed on a cushion ! No need to explain the importance of highlighting the comfortable and reassuring aspect of the hotel chain, something done thanks to this stylized pillow.",
-    "url": ""
+    "url": "assets/logo/voyage/ibis.png"
   },
   {
     "id": "31",
@@ -189,7 +189,7 @@
     "id": "32",
     "name": "Innocent",
     "description": "the three founders bought 100Kg of fruit to offer smoothies at a music festival. In front of their stand, a sign: Should we quit our jobs to make healthy drinks? and 2 garbage cans set up in front: YES and NO. Visitors had to throw their cups into one of the 2 garbage cans. At the end of the festival, the YES garbage can was full. The next day was the first day of the rest of their lives. Before selling products, Innocent sells a brand. The company understands the importance of brand image. Its storytelling revolves around humor, to make both young and old laugh. Whether through its product or communication strategy, Innocent aims to convey joie de vivre and good humor.",
-    "url": "assets/logo/boisson/innocent.png.jpeg"
+    "url": "assets/logo/boisson/innocent.png"
   },
   {
     "id": "33",
@@ -201,7 +201,7 @@
     "id": "34",
     "name": "Intel",
     "description": "Established in 1968, Intel is a semiconductor giant; its logo, a lowercase 'Intel' enclosed in a circle, signifies precision and integration in the world of microprocessors.",
-    "url": "assets/logo/techno/intel.svg"
+    "url": "assets/logo/techno/intel.png"
   },
   {
     "id": "35",
@@ -231,7 +231,7 @@
     "id": "39",
     "name": "Mastercard",
     "description": "A global payment technology company founded in 1966, Mastercard's iconic interlocking circles in red and yellow symbolize its commitment to seamless financial transactions and connectivity.",
-    "url": "assets/logo/techno/mastercard.svg"
+    "url": "assets/logo/techno/mastercard.png"
   },
   {
     "id": "40",
@@ -255,7 +255,7 @@
     "id": "43",
     "name": "Microsoft",
     "description": "Established in 1975 by Bill Gates and Paul Allen, Microsoft is a leading software and technology company; its four-pane window logo reflects its dedication to providing a window into the digital world.",
-    "url": "assets/logo/techno/microsoft.svg"
+    "url": "assets/logo/techno/microsoft.webp"
   },
   {
     "id": "44",
@@ -297,7 +297,7 @@
     "id": "50",
     "name": "Nvidia",
     "description": "Founded in 1993, NVIDIA is a graphics processing unit (GPU) pioneer; its green, stylized eye logo reflects its focus on visual computing and cutting-edge graphics technology.",
-    "url": "assets/logo/techno/nvidia.svg"
+    "url": "assets/logo/techno/nvidia.png"
   },
   {
     "id": "51",
@@ -369,7 +369,7 @@
     "id": "62",
     "name": "Tesla",
     "description": "Tesla is an American brand created in 2003 by Martin Eberhard and Marc Tarpenning. The name of the brand is a tribute to Nikola Tesla. Tesla specializes in the creation and development of electric cars, superchargers, and autopilot technology. The logo of Tesla is a stylized 'T' representing the first letter of the brand. It is typically displayed in a clean, metallic silver color.",
-    "url": "assets/logo/voiture/cupra.png"
+    "url": "assets/logo/voiture/tesla.png"
   },
   {
     "id": "63",
