@@ -4,35 +4,45 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="viewport" content="width=device-width, user-scalable=no">
+     <link rel="stylesheet" href="https://use.typekit.net/rhv3riy.css">
      <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/b3a0ba6a69.js" crossorigin="anonymous"></script>
      <title>Neighbors</title>
 </head>
 <body>
-
      <div id="loaderSection" class="loader-section" >
-          <img src="assets//loader-elements/neighbors-logo.png" class="loader-section_logo">
+          <img src="assets/media/neighbors-logo-orange.png" class="loader-section_logo">
      </div>
 
-     <div class="main-section">
-          <header>
-               <h1 class="title">Neighbors</h1>
+     
+     <div class="main-section">          
+          <img src="assets/media/header-background.png" class="banner">
+
+          <header id="mainSectionHeader" class="main-section-header">
+               <img src="assets/media/neighbors-logo-blue.png" class="main-section-header_logo">
+               
+               <section class="slogan-container">
+                    <h1><span class="minify">Together you will advance</span><br>Alone you will win !</h1>
+               </section>
           </header>
           
-          <main>
-               <div class="number-container">
-                    <input type="number" id="userNumber" class="number-container__input">
-                    <button id="validateButton" class="number-container__button">Find</button>
-               </div>
+          <section id="home" class="home">
+               <section class="number-container">
+                    <input type="number" id="userNumber" class="number-container__input" placeholder="Search your card number">
+                    <button id="validateButton" class="number-container__button">
+                         <img src="assets/media/button-icon.png">
+                    </button>
+               </section>
      
                <article id="contentContainer" class="content-container">
-                    <h2 class="content-container_title title"><span id="brandNumber"></span> the correct answer is <br><span id="brandName"></span></h2>
+                    <h2 class="content-container_title title"><span id="brandNumber"></span>. the correct answer is <span id="brandName"></span></h2>
                     <div class="content-container_description" id="brandDescription"></div>
                </article>
      
                <article id="errorContainer" class="error-container">
-                    <h2 class="title"><span id="errorNumber"></span> doesn't exist !</h2>
+                    <h2 class="error-container_title title"><span id="errorNumber"></span> doesn't exist !</h2>
                </article>
-          </main>
+          </section>
      </div>
 
      <script src="main.js" type="module"></script>
