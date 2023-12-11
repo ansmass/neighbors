@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the Neighbors Game Add-On - Brand Glossary! This application serves as a valuable extension to the Neighbors board game, which was developed during the 'English Game' contest hosted by MyDigitalSchool. The primary objective of the game is simple: unveil the hidden brand name concealed within the list of words drawn on the card at the beginning of the game.
+Welcome to the Neighbors Game Add-On - Brand Glossary! This application serves as a valuable extension to the Neighbors board game, which clinched the first place in the 'English Game' contest hosted by MyDigitalSchool. The primary objective of the game is simple: unveil the hidden brand name concealed within the list of words drawn on the card at the beginning of the game.
 
 This add-on acts as a glossary, providing information about the brands, including their logos and a brief description of their activities. Players can access the add-on by scanning a QR code and entering the card number to verify their answers.
 
@@ -31,6 +31,10 @@ No installation is required for this add-on. Simply scan the QR code, enter the 
 ## Contribution
 
 Contributions are welcome! If you have additional brands, logos, or information to add, feel free to submit a pull request.
+
+## Award-Winning Game
+
+Neighbors, the base game, secured the first place in the national 'English Game' contest organized by MyDigitalSchool.
 
 ---
 
